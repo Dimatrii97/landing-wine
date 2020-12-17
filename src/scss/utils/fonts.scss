@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+@font-face {
+  font-family: 'ChocolateBox';
+  src: local('ChocolateBox') url('../fonts/ChocolateBox.ttf') format('ttf');
+  font-style: normal;
+
+}
+  
+  @font-face {
+    font-family: 'iconmoon';
+    src: local('iconmoon'),
+      url('../fonts/icomoon.woff') format('woff'),
+      url('../fonts/icomoon.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+  }
+  [class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "iconmoon";
+    font-style: normal;
+  }
+  
+.icon-search:before { content: '\e904'; } 
+.icon-bag:before { content: '\e900'; } 
+.icon-call:before { content: '\e901'; }
+.icon-message:before { content: '\e903'; }
+.icon-menu:before { content: '\e906'; }
+.icon-location:before { content: '\e902'; }
+.icon-arrow-r:before { content: '\e902'; }   
+.icon-arrow-l:before { content: '\e902'; transform:rotate(180deg); } 

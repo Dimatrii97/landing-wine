@@ -1,0 +1,24 @@
+.client {
+  // .client__img
+  background-image: url(../img/bg-phone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 147px 0 177px 0;
+  margin: 152px 0;
+
+  &__img {
+    height: 170px;
+    width: 170px;
+    border: 5px solid $white;
+    margin: 44px auto 20px auto;
+  }
+  // .client__name
+  &__name {
+    font-size: 1.3333rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  @include _480 {
+    padding: 100px 0 100px 0;
+  }
+}

@@ -1,0 +1,43 @@
+.win-card {
+  // .win-card__group
+  &__group {
+    margin-top: 97px;
+    margin-bottom: 155px;
+  }
+  //.win-card__item
+  &__item {
+    position: relative;
+  }
+  // .win-card__text
+  &__text {
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+    white-space: nowrap;
+  }
+  // .win-card__img
+  &__img {
+    height: 558px;
+    object-fit: cover;
+    // media
+  }
+  //.win-card__item_active
+  &__item_active {
+    & .win-card__img {
+      height: 637px;
+      object-fit: cover;
+    }
+    & .win-card__text {
+      bottom: 40px;
+    }
+  }
+  // .win-card__name
+  &__name {
+    font-size: 1.3333rem;
+  }
+  // .win-card__price
+  &__price {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}

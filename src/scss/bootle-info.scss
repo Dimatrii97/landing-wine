@@ -1,0 +1,62 @@
+.bootle-info {
+  // .bootle-info__subtitle
+  &__subtitle {
+    font-size: 1.3333rem;
+  }
+  // .bootle-info__title
+  &__title {
+    font-size: 5.3333rem;
+    margin: 0 0 6px 0;
+  }
+  & .more {
+    margin: 20px auto 27px auto;
+  }
+  &__img {
+    background-image: url("../img/bootls-set.png");
+    background-size: cover;
+    width: 471px;
+    height: 480px;
+    margin: 0 auto;
+  }
+
+  @include _1200 {
+    &__title {
+      font-size: 4rem;
+    }
+    &__subtitle {
+      font-size: 1.2rem;
+    }
+  }
+
+  @include _992 {
+    &__title {
+      font-size: 3.5rem;
+    }
+    &__subtitle {
+      font-size: 1rem;
+    }
+    &__img {
+      width: 350px;
+      height: 355px;
+    }
+  }
+
+  @include _768 {
+    &__title {
+      font-size: 2.5rem;
+    }
+  }
+
+  @include _576 {
+    &__title {
+      font-size: 2rem;
+    }
+    &__subtitle {
+      font-size: 0.8rem;
+    }
+    &__img {
+      width: 250px;
+      height: 255px;
+    }
+  }
+}
